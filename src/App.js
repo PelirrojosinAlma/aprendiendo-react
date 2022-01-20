@@ -8,6 +8,8 @@ import Texto from './sections/Props';
 import Contador from './sections/StateComponent';
 import Car from './sections/ImportJsonData';
 import Box from './sections/Children';
+import Eventos from './sections/Eventos';
+
 
 function App() {
   const clases = [
@@ -56,7 +58,7 @@ function App() {
     {
       NroClase: 'Quinta Clase',
       Descripcion: 'Componentes Children',
-      Resultado: <div></div>
+      Resultado: <Eventos />
     }
   ]
   return (
