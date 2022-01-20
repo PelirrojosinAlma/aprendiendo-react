@@ -9,6 +9,7 @@ import Contador from './sections/StateComponent';
 import Car from './sections/ImportJsonData';
 import Box from './sections/Children';
 import Eventos from './sections/Eventos';
+import Forms from './sections/Forms';
 
 
 function App() {
@@ -21,8 +22,8 @@ function App() {
     },
     {
       NroClase: 'Primera Clase',
-      Descripcion: 'Componente con state',
-      Resultado: <Hello titulo='Otro titulo desde props' />
+      Descripcion: 'Componente con props',
+      Resultado: <Hello titulo='Hola mundo' />
     },
     {
       NroClase: 'Segunda Clase',
@@ -57,8 +58,13 @@ function App() {
     },
     {
       NroClase: 'Quinta Clase',
-      Descripcion: 'Componentes Children',
+      Descripcion: 'Uso de eventos sintéticos',
       Resultado: <Eventos />
+    },
+    {
+      NroClase: 'Sexta Clase',
+      Descripcion: 'Formularios',
+      Resultado: <Forms />
     }
   ]
   return (

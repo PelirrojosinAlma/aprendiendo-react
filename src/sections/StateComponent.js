@@ -16,7 +16,7 @@ export default class Contador extends Component {
 
 class ContadorNumero extends Component {
     render() {
-        console.log('ContadorNumero render()');
+        // console.log('ContadorNumero render()', this.props.numero);
         return <span>Contador: {this.props.numero}</span>;
     }
 }
