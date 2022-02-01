@@ -4,7 +4,6 @@ export default class Eventos extends Component {
     constructor() {
         super();
         this.state = { mouseX: 0, mouseY: 0 };
-        // this.handleMouseMove = this.handleMouseMove.bind(this);
     }
 
     handleMouseMove = (e) => {
